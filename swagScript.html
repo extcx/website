@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swagware</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            background-color: rgb(17, 17, 17);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        h1 span {
+            display: inline-block;
+            transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+        }
+
+        h1 span:hover {
+            color: rgb(181, 189, 255);
+            text-decoration: underline;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        .highlight {
+            color: rgb(100, 149, 237);
+            text-decoration: underline;
+            font-style: italic;
+        }
+
+        .small-button {
+            background-color: rgb(25, 25, 25);
+            border: 2px solid white;
+            color: white;
+            padding: 8px 15px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            margin: 10px 0;
+        }
+
+        .small-button:hover {
+            background-color: white;
+            color: rgb(25, 25, 25);
+        }
+
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .whitelist-option {
+            border: 2px solid white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 10px;
+            width: 80%;
+            position: relative;
+        }
+
+        .price {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .price:hover::before {
+            content: attr(data-usd);
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <span>S</span><span>W</span><span>A</span><span>G</span><span>W</span><span>A</span><span>R</span><span>E</span>
+    </h1>
+    
+    <h2>Undetected <span class="highlight">Da Hood</span> script designed to elevate your gameplay experience.</h2>
+    
+    <p>SWAGWARE is the next step in enhancing YOUR Roblox gameplay.</p>
+    
+    <button class="small-button" onclick="location.href='https://discord.gg/fwsambn42a'">Purchase Now</button>
+    
+    <h1>Take a <span class="highlight">Look!</span></h1>
+    
+    <img src="img/UIyes.png" alt="SWAGWARE UI">
+    
+    <h1>Undetected <i class="fas fa-shield-alt"></i></h1>
+    
+    <p>We take security and updates seriously, ensuring that SWAGWARE remains undetectable against anti-cheat systems. <br>
+    We continuously monitor and adapt to new detection methods, delivering timely updates to keep you protected.</p>
+    
+    <h1>Still not convinced?</h1>
+    <p>Check out our media!<br>
+        <a href="https://www.youtube.com/@gino4x" target="_blank">@gino4x</a><br>
+        <a href="https://www.youtube.com/@extcx" target="_blank">@extcx</a>
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/O8ImyI9RvM0?t=707s" frameborder="0" allowfullscreen></iframe>
+    
+    <h1>Ready?</h1>
+    
+    <div class="whitelist-option">
+        <img src="img/SWAGNATION.png" alt="SWAGWARE Logo">
+        <h2>SWAGWARE 7 Day Whitelist</h2>
+        <h1 class="price" data-usd="$3.75">300 Robux</h1>
+    </div>
+    
+    <div class="whitelist-option">
+        <img src="img/SWAGNATION.png" alt="SWAGWARE Logo">
+        <h2>SWAGWARE 30 Day Whitelist</h2>
+        <h1 class="price" data-usd="$10.00">800 Robux</h1>
+    </div>
+    
+    <div class="whitelist-option">
+        <img src="img/SWAGNATION.png" alt="SWAGWARE Logo">
+        <h2>SWAGWARE Lifetime Whitelist</h2>
+        <h1 class="price" data-usd="$15.00">1,200 Robux</h1>
+    </div>
+</body>
+</html>
